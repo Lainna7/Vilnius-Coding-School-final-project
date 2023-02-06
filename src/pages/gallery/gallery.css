@@ -1,0 +1,78 @@
+.photo {
+  column-width: 250px;
+  column-gap: 15px;
+  max-width: 100%;
+  margin: 30px 30px 30px 30px;
+  padding-top: 30px;
+}
+.photo > div {
+  display: inline-block;
+  -webkit-column-break-inside: avoid;
+  -webkit-column-break-inside: avoid-column;
+  border-radius: 20px;
+  margin-bottom: 1em;
+  overflow: hidden;
+  break-inside: avoid;
+  page-break-inside: avoid;
+  page-break-inside: avoid-column;
+  break-inside: avoid-column;
+}
+.photo > div > div {
+  padding: 1em 1em 1em 1em;
+}
+.galerija {
+  width: 100%;
+  height: auto !important;
+  object-fit: cover;
+  border-radius: 20px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
